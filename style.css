@@ -12,3 +12,19 @@
     --Dark-Grey: hsl(0, 0%, 12%);
     --Off-Black: hsl(0, 0%, 8%);
 }
+
+body {
+    background: var(--Off-Black);
+}
+
+.wrapper {
+    padding: 1.25rem;
+    display: block;
+    max-width: 300px;
+    background-color: var(--Dark-Grey);
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;   
+    color: var(--White);
+}
