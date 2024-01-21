@@ -65,3 +65,9 @@ p {
     font-size: .8rem;
     font-weight: 600;
 }
+
+.contact:hover {
+    cursor: pointer;
+    background-color: var(--Green);
+    color: black;
+}
