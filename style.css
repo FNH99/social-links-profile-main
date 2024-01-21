@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-    padding: 1.25rem;
+    padding: 1.5rem;
     display: block;
     max-width: 300px;
     background-color: var(--Dark-Grey);
@@ -27,4 +27,41 @@ body {
     margin-bottom: 80px;
     text-align: center;   
     color: var(--White);
+    border-radius: 1rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: .8rem;
+    font-weight: 600;
+    margin-top: .5rem;
+    color: var(--Green);
+}
+
+p {
+    font-size: .8rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: hsl(0, 0%, 80%);
+}
+
+.contact {
+    background-color: var(--Grey);
+    margin: .75rem;
+    padding: .75rem;
+    border-radius: .5rem;
+
+    font-size: .8rem;
+    font-weight: 600;
 }
